@@ -37,11 +37,11 @@ function exibemultiplicar()
 {
     let numero5= document.getElementById("num5").value;
     let numero6= document.getElementById("num6").value;
-    document.getElementById("resultado3").innerHTML=parseFloat( numero5) * parseFloat(numero4);
+    document.getElementById("resultado3").innerHTML=parseFloat( numero5) * parseFloat(numero);
 }
-function exibedivisao()
+function exibesubtrair()
 {
     let numero7= document.getElementById("num7").value;
     let numero8= document.getElementById("num8").value;
-    document.getElementById("resultado2").innerHTML=parseFloat( numero7) - parseFloat(numero8);
+    document.getElementById("resultado4").innerHTML=parseFloat( numero7) - parseFloat(numero8);
 }
