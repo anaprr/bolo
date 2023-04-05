@@ -6,7 +6,7 @@ document.getElementById("btn-soma").addEventListener("click", exiberesultado);
 
 document.getElementById("btn-dividir").addEventListener("click", exibedivisao);
 
-document.getElementById("btn-multiplicar").addEventListener("click", exibemultiplicar);
+document.getElementById("btn-multiplica").addEventListener("click", exibemultiplicar);
 
 document.getElementById("btn-subtrair").addEventListener("click", exibesubtrair);
 
@@ -33,7 +33,7 @@ function exibedivisao()
     let numero4= document.getElementById("num4").value;
     document.getElementById("resultado2").innerHTML=parseFloat( numero3) / parseFloat(numero4);
 }
-function exibemultiplicar()
+function exibemultiplica()
 {
     let numero5= document.getElementById("num5").value;
     let numero6= document.getElementById("num6").value;
